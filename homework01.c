@@ -45,5 +45,17 @@ int main(void) {
     printf("(e) c=a>>3: %x \n", a>>3);//(e)
     printf("(f) c=a<<3: %x \n", a<<3);//(f)
     printf("(g) c&=b: %x \n\n\n", c&=b);    //(g)
+
+    int q;
+    /*problem 34*/
+    printf("Problem 34: \n");
+    printf("ASCII from 33 to 127: \n");
+    for ( q = 33; q < 128; q++)
+    {
+        /* code */
+        printf("%d:  %c\n", q, q); 
+        
+    }
+    
         
 }
